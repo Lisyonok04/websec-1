@@ -1,0 +1,14 @@
+.input {
+    border: red dashed 1px;
+    border-radius: 8px;
+    margin: 10px;
+}
+.gridBox {
+    display: grid;
+    grid-template-columns: auto 50px auto;
+}
+.flexBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
