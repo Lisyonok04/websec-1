@@ -1,14 +1,78 @@
-.input {
-    border: red dashed 1px;
-    border-radius: 8px;
-    margin: 10px;
+* {
+    box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.GreenBack {
+    background-color: #b2f5b9;
+    padding: 25px;
+    border-radius: 10px;
+    width: 720px; 
+    min-height: 260px;
+}
+
 .gridBox {
     display: grid;
-    grid-template-columns: auto 50px auto;
+    grid-template-columns: auto 90px auto;
+    gap: 12px;
+    width: 100%;
 }
-.flexBox {
+
+input, select {
+    font-size: 19px;
+    border: 2px dashed #ff0000;
+    border-radius: 10px;
+    outline: none;
+    background: transparent;
+    color: #ff0000;
+    height: 38px;
+    width: 100%;
+}
+
+input {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.selection {
+    width: 70px;
+    font-size: 20px;
+    cursor: pointer;
+    height: 38px;
+    margin: auto 10px auto 10px;
+    text-align: center;
+}
+
+button {
+    color: #ff0000;
+    background: transparent;
+    font-weight: bold;
+    font-size: 19px;
+    border: 2px dashed #ff0000;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 40px auto 30px auto;
+    display: block;
+    height: 38px;
+    width: 200px;
+    text-align: center;
+}
+
+.results {
+    padding: 15px;
+    border: 2px dashed #ff0000;
+    border-radius: 10px;
+    color: #ff0000;
+    font-size: 19px;
+    line-height: 1.5;
+    min-height: 85px;
+    margin-top: 15px;
+    text-align: left;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: left;
+    justify-content: left;
 }
